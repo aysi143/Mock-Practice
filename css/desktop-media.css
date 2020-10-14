@@ -1,0 +1,12 @@
+@media screen and (min-width: 900px) {
+  .cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .card {
+    margin: 2rem;
+  }
+}

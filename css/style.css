@@ -1,0 +1,64 @@
+.heading {
+  max-width: 40rem;
+  text-align: center;
+  margin-bottom: 7.5rem;
+}
+
+.heading h1 {
+  margin: auto;
+  text-align: center;
+  max-width: 30rem;
+  font-size: 2rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.heading h1 > span {
+  font-weight: 200;
+}
+
+.heading p {
+  /* font-size: 1.4rem; */
+  line-height: 1.5;
+}
+
+.card {
+  max-width: 35rem;
+  margin-bottom: 3rem;
+  padding: 3rem 2rem;
+  border-radius: 7px;
+  background-color: white;
+  -webkit-box-shadow: -31px 56px 70px -44px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: -31px 56px 70px -44px rgba(0, 0, 0, 0.65);
+  box-shadow: -11px 16px 70px -44px rgba(0, 0, 0, 0.65);
+  /* Add box shadow here */
+}
+
+.card:nth-child(1) {
+  border-top: 4px solid var(--cyan);
+}
+
+.card:nth-child(2) {
+  border-top: 4px solid var(--red);
+}
+
+.card:nth-child(3) {
+  border-top: 4px solid var(--orange);
+}
+
+.card:nth-child(4) {
+  border-top: 4px solid var(--blue);
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+}
+
+.card-heading {
+  margin-bottom: 3.8rem;
+}
+
+.card-image {
+  display: flex;
+  justify-content: flex-end;
+}
